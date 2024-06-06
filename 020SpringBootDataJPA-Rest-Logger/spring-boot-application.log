@@ -1,0 +1,52 @@
+2024-05-30 11:31:50 INFO  com.ciq.Application - Starting Application using Java 17.0.10 with PID 19012 (C:\Users\panga\eclipse-SpringBoot-practice\020SpringBootDataJPA-Rest-Logger\target\classes started by panga in C:\Users\panga\eclipse-SpringBoot-practice\020SpringBootDataJPA-Rest-Logger)
+2024-05-30 11:31:50 INFO  com.ciq.Application - No active profile set, falling back to 1 default profile: "default"
+2024-05-30 11:31:50 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-30 11:31:50 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-30 11:31:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-30 11:31:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2024-05-30 11:31:51 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2024-05-30 11:31:51 INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-05-30 11:31:51 INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-05-30 11:31:51 INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-05-30 11:31:51 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2024-05-30 11:31:51 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-30 11:31:51 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-30 11:31:51 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-30 11:31:51 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1435 ms
+2024-05-30 11:31:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-30 11:31:52 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ec1aa21
+2024-05-30 11:31:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-30 11:31:52 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/bhagi'
+2024-05-30 11:31:52 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-30 11:31:52 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-30 11:31:52 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-30 11:31:52 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-30 11:31:52 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-30 11:31:52 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-05-30 11:31:53 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-30 11:31:53 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-30 11:31:53 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-30 11:31:54 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-05-30 11:31:54 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-30 11:31:54 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2024-05-30 11:31:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2024-05-30 11:31:54 INFO  com.ciq.Application - Started Application in 4.722 seconds (process running for 5.236)
+2024-05-30 11:31:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-30 11:31:55 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-30 11:31:55 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-30 11:37:22 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s282ms954µs800ns).
+2024-05-30 11:51:54 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m32s7ms600µs400ns).
+2024-05-30 12:15:20 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m56s27ms564µs700ns).
+2024-05-30 12:24:30 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m10s19ms230µs900ns).
+2024-05-30 14:40:03 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h11m2s650ms52µs200ns).
+2024-05-30 14:44:27 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s117ms52µs400ns).
+2024-05-30 17:24:34 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h50m40s244ms866µs700ns).
+2024-05-30 18:01:26 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s450ms360µs).
+2024-05-30 18:10:05 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m9s121ms183µs700ns).
+2024-05-30 18:49:11 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m5s702ms526µs600ns).
+2024-05-30 19:00:53 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m41s600ms775µs400ns).
+2024-05-30 19:16:23 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-05-30 19:16:23 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2024-05-30 19:16:23 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-30 19:16:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-30 19:16:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
